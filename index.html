@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Je suis un développeur passionné avec une expérience dans la création de sites web.</p>
+    
+        <!-- Ajout d'une vidéo -->
+        <video controls>
+          <source src="my_video.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la vidéo.
+        </video>
+    
+        <!-- Ajout d'un audio -->
+        <audio controls>
+          <source src="my_audio.mp3" type="audio/mp3">
+          Votre navigateur ne prend pas en charge l'audio.
+        </audio>
+    </section>
+    
+
+    <section id="work">
+        <h2>My Work</h2>
+        <ul>
+          <li><a href="project1.html">Project 1</a></li>
+          <li><a href="project2.html">Project 2</a></li>
+          <li><a href="project3.html">Project 3</a></li>
+        </ul>
+        <img src="img 1.png" alt="image insérée">
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <table>
+          <tr>
+            <th>Experience</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Web Developer at Company A</td>
+            <td>2020-2024</td>
+          </tr>
+          <tr>
+            <td>Intern at Company B</td>
+            <td>2018-2020</td>
+          </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+          <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Esli Daniel Sombo. Tous droits réservés.</p>
+        <p><a href="mailto:contact@esli.com">Contact me</a></p>
+    </footer>
+ 
+</body>
+</html>
