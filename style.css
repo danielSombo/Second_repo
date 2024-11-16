@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/*****************HEADER*********************/
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*************************ABOUT***********************/
+#about {
+    padding: 3rem 5%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about video, #about audio{
+    width: 80%;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+/**************************WORK****************************/
+#work {
+    padding: 3rem 5%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#work ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#work ul li {
+    
+}
+
+#work ul li a{
+    text-decoration: none;
+}
+
+#work img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+/************RESUME*************/
+#resume {
+    padding: 3rem 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+#resume table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#resume th, #resume td {
+    padding: 1remm;
+    border: 1px solid #ddd;
+}
+
+#resume th {
+    background-color: #007bff;
+    color: white;
+}
+
+/*******************CONTACT**************************/
+
+#contact{
+    padding: 3rem 5%;
+    background-color: #f9f9f9;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact textarea{
+    resize: vertical;
+}
+
+
+
+
+
+/********************FOOTER*******************/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+footer p{
+    margin: 0.5rem 0
+}
+
+footer a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
